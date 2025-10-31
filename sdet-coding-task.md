@@ -18,7 +18,7 @@
     - One **negative** or **edge-case** test per user story
 
   - Add a short **Bug Report Summary** in your `README.md` or a separate `BUGS.md` file:
-    - Steps to reproduce
+    - Steps to reproducenpm install --save-dev typescript ts-node @types/node
     - Expected vs actual behavior
 
 Include a **README.md** file with:
