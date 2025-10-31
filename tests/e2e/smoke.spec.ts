@@ -1,9 +1,7 @@
 import { test, expect } from '@playwright/test';
 
-test('homepage title contains "Toolshop"', async ({ page }) => {
-  // 1. Go to the site (Playwright uses the baseURL from your env config)
+test('homepage title contains "Toolshop"', async ({ page }, testInfo) => {
+  console.log('Project:', testInfo.project.name, 'baseURL:', testInfo.project.use.baseURL);
   await page.goto('/');
-
-  // 2. Check that the title includes "Toolshop"
   await expect(page).toHaveTitle(/Toolshop/i);
 });
