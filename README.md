@@ -18,32 +18,6 @@ Testing framework built in **TypeScript** with **Playwright**, demonstrating cle
 
 ---
 
-## Project Structure
-
-tsdemo/
-├─ src/
-│ ├─ config/
-│ │ └─ environments.ts # Environment selector (dev/preprod)
-│ ├─ pages/
-│ │ ├─ homepage.page.ts # Home/catalogue page object
-│ │ └─ product.page.ts # Product details page object
-│ └─ utils/
-│ └─ position.ts # Helper to resolve First/Middle/Last indexes
-│
-├─ tests/
-│ └─ e2e/
-│ ├─ integration/ # Smoke/integration tests
-│ │ └─ visitor-default-search.spec.ts
-│ └─ regression/ # Broader regression coverage
-│ └─ visitor-default-search.regression.spec.ts
-│
-├─ playwright.config.ts # Multi-env + multi-browser config
-├─ tsconfig.json # TypeScript compiler options
-├─ package.json # Project metadata & scripts
-└─ README.md
-
----
-
 ## Setup
 
 ### 1. Install dependencies
